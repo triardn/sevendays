@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:sample_app/pages/first_splash.dart';
 import 'package:sample_app/pages/first_started.dart';
 
-void main() => runApp(SevenDays());
+void main() => runApp(const SevenDays());
 
 class SevenDays extends StatelessWidget {
+  const SevenDays({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: FirstStarted(),
     );
   }
