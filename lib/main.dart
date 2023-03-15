@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sample_app/pages/first_started.dart';
+import 'package:sample_app/pages/first_signin.dart';
 
 void main() => runApp(const SevenDays());
 
@@ -9,7 +9,7 @@ class SevenDays extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: FirstStarted(),
+      home: FirstSignin(),
     );
   }
 }
