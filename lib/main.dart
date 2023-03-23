@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sample_app/pages/first_empty.dart';
+import 'package:sample_app/pages/first_rating.dart';
 
 void main() => runApp(const SevenDays());
 
@@ -10,7 +10,7 @@ class SevenDays extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FirstEmpty(),
+      home: FirstRating(),
     );
   }
 }
